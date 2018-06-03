@@ -13,10 +13,10 @@ ASM Chart Sketch:<br />
 2. Plug in USB device. Device Letter should appear. <br />  
 ![3](/demo/3.png)
 
-3. Output text will be created. The date and time will determine the file name.
+3. Output text will be created. The date and time will determine the file name.<br />  
 ![4](/demo/4.png)
 
-4. Check that the output file is correct.
+4. Check that the output file is correct.<br />  
 ![5](/demo/5.png)
 
-5. Plug in another USB device or end script. 
+5. Plug in another USB device or end script. <br />  
