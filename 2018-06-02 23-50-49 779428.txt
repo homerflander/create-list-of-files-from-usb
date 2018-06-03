@@ -1,0 +1,10 @@
+System Volume Information
+	->WPSettings.dat
+	->IndexerVolumeGuid
+Pics
+	->Cat
+		->cat pics.jpg
+	->Dog
+		->dog pics.jpg
+chores.txt
+123.txt

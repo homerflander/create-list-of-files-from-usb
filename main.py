@@ -48,7 +48,7 @@ while 1:
     #create old list for attached devices
     for drive in c.Win32_DiskDrive():
         old_list = old_list + drive.SerialNumber
-        print(drive)
+        #print(drive)
 
     #loop until new device is connected
     while break_var == False:
@@ -71,6 +71,8 @@ while 1:
     #create new output file based on time
     outfile = str(datetime.datetime.now())
     outfile=outfile.replace(':', '-', 2)
+    outfile=outfile.replace('.', ' ', 1)
+    outfile=outfile+".txt"
     FILEOUT=io.open(outfile, "w", encoding='utf-8')
     os.chdir(location)
 
